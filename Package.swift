@@ -14,6 +14,10 @@ let package = Package(
             targets: ["ChatBotSwift"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "8.0.0"),
+        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.6")
+    ],
     targets: [
         .target(
             name: "ChatBotSwift",
