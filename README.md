@@ -4,7 +4,7 @@
 Add a the Swift Package Manager Dependency to your project
 
 ```
-.package(url: "https://github.com/kevit-in/chatbot-swift", from: "1.0.2")
+.package(url: "https://github.com/kevit-in/chatbot-swift", from: "1.0.3")
 ```
 
 # import the framework
