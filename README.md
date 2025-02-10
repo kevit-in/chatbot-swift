@@ -16,9 +16,10 @@ In your preferred file import the framework as below
 
 # Initiailize User Input (Optional)
 
+```
 let pairs = [("email", "test@123.com")]
-
 let userInput = Dictionary(uniqueKeysWithValues: pairs)
+```
         
 # Initialize the ChatBot 
 ```let model = ChatBotModel(appId: "<appId>", appSecret: "<appSecret>", botDesign: botDesign, userInput: userInput, botUrl: "<botUrl>", socketUrl: "<socketUrl>")```
