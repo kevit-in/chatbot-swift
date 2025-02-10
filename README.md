@@ -13,9 +13,14 @@ In your preferred file import the framework as below
  
 # Initialize bot design (Optional)
 ```let botDesign = ChatBotDesign(botTitle: "HELLO WORLD", header: ChatBotDesign.Style(bgColor: "#e2a387", txtColor: "#ffffff"), agent: ChatBotDesign.Style(bgColor: "#e2a387", txtColor: "#ffffff"), user: ChatBotDesign.Style(bgColor: "#e2e2e2", txtColor: "#444444"))```
+
+# Initiailize User Input (Optional)
+
+let pairs = [("email", "test@123.com")]
+let userInput = Dictionary(uniqueKeysWithValues: pairs)
         
 # Initialize the ChatBot 
-```let model = ChatBotModel(appId: "<appId>", appSecret: "<appSecret>", botDesign: botDesign)```
+```let model = ChatBotModel(appId: "<appId>", appSecret: "<appSecret>", botDesign: botDesign, userInput: userInput, botUrl: "<botUrl>", socketUrl: "<socketUrl>")```
 
 
 
