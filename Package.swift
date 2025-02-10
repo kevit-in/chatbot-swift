@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ChatBot",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -15,8 +15,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "8.0.0"),
-        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.6")
+        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "7.12.0"),
+        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.8")
     ],
     targets: [
         .target(
@@ -30,8 +30,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ChatBot",
-            url: "https://github.com/kevit-in/chatbot-swift/releases/download/1.0.1/ChatBot.xcframework.zip",
-            checksum: "2b729c5c43a844b1234b47641ee0b443bf5715722d3ad279735ca71eb19d241f"
+            url: "https://github.com/kevit-in/chatbot-swift/releases/download/1.0.3/ChatBot.xcframework.zip",
+            checksum: "4d52c0f65423a5d1269172dec10a2cd395d71b03574947c5eaeb5a9f16c54894"
         )
     ]
 )
