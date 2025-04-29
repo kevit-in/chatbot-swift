@@ -16,7 +16,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/onevcat/Kingfisher.git", from: "7.12.0"),
-        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.8")
+        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.8"),
+        .package(url: "https://github.com/JanGorman/Agrume", .exact("5.8.2"))
     ],
     targets: [
         .target(
@@ -25,13 +26,14 @@ let package = Package(
                 .target(name: "ChatBot"), // Link the binary target
                 "Kingfisher", // Add Kingfisher
                 "Starscream", // Add Starscream
+                "Agrume", // Add Agrume
             ],
             path: "./Sources"
         ),
         .binaryTarget(
             name: "ChatBot",
-            url: "https://github.com/kevit-in/chatbot-swift/releases/download/1.0.4/ChatBot.xcframework.zip",
-            checksum: "5e61b8589d60cd1d391ac24711e0f658c92c9d9a164583b8d52cbe1e77ed81ea"
+            url: "https://github.com/kevit-in/chatbot-swift/releases/download/1.0.5/ChatBot.xcframework.zip",
+            checksum: "02ec142ca690efc7ffe6fb12e83be88caa83a804ff0c24e2421ea7012229fe14"
         )
     ]
 )
