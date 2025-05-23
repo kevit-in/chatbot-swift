@@ -32,8 +32,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ChatBot",
-            url: "https://github.com/kevit-in/chatbot-swift/releases/download/1.0.6/ChatBot.xcframework.zip",
-            checksum: "f6389cb9c1d0d09e045db5e7256fa1e28cb0005aa517721d6558fc039fd51ca6"
+            url: "https://github.com/kevit-in/chatbot-swift/releases/download/1.0.7/ChatBot.xcframework.zip",
+            checksum: "e2b5e7db1537eb3ff52c7274d9a02f23e9c19b58c2b7b7330fed0db1d9389690"
         )
     ]
 )
